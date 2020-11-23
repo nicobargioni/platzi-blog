@@ -1,0 +1,43 @@
+.sobremi-up{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: lightgray;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.imagen-sobremi{
+    width: 500px;
+    height: 300px;
+    background-image: url('/assets/imagenes/warren-wong-iOWry_4xGmc-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 90px;
+    margin-left: 50px;
+    
+}
+
+.sobremi-desc{
+    width: 650px;
+    height: 300px;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 110px;
+    
+}
+
+.proyectos-card{
+    width: 300px;
+    margin: 0 30px;
+}
+
+.proyectos-card h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

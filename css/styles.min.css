@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+a {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.body-index {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.index-main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-image: url("/assets/cover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 300px;
+}
+
+.index-arriba {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 30px;
+}
+
+.sobremi {
+  margin-right: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.index-abajo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+button {
+  width: 90px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #47cfac;
+}
+
+.index-abajo h1 {
+  color: white;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #47cfac;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  height: 100%;
+}
+
+li {
+  margin: 10px;
+  list-style: none;
+  color: white;
+}
+
+header a {
+  color: white;
+}
+
+.blogs-arriba {
+  height: 500px;
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+}
+
+.blogs-abajo {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.noticias-container {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.noticias-container img {
+  width: 600px;
+  height: 400px;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.noticias-arriba {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+h1 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.detalle-noticia p {
+  margin-top: 10px;
+}
+
+.titulo-medio {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo-medio p {
+  font-weight: bold;
+}
+
+.linea {
+  border: 1px solid grey;
+  margin-bottom: 15px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogs-abajo {
+  width: 100%;
+  height: 100%;
+}
+
+article img {
+  width: 300px;
+  height: 200px;
+}
+
+.card-notice {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+  margin-top: 40px;
+}
+
+.card-notice p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.card-notice h3 {
+  margin-top: 10px;
+}
+
+.bajo-header {
+  height: 110px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bajo-header a {
+  margin-right: 50px;
+  text-decoration: underline;
+}
+
+.bajo-header img {
+  margin-left: 50px;
+  width: 300px;
+}
+
+.cabecera {
+  background-image: url("/assets/imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.linea2 {
+  border: 1px solid gray;
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.medio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.medio p {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.blogpost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogpost h2 {
+  margin-bottom: 20px;
+}
+
+.blogpost p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacto {
+  background-color: gray;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.contacto-escribe {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.encierro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.encierro img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.sobremi-up {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: lightgray;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.imagen-sobremi {
+  width: 500px;
+  height: 300px;
+  background-image: url("/assets/imagenes/warren-wong-iOWry_4xGmc-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 90px;
+  margin-left: 50px;
+}
+
+.sobremi-desc {
+  width: 650px;
+  height: 300px;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 110px;
+}
+
+.proyectos-card {
+  width: 300px;
+  margin: 0 30px;
+}
+
+.proyectos-card h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 90px;
+  width: 100%;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 30px solid #47cfac;
+}
+
+footer p {
+  color: white;
+}
+/*# sourceMappingURL=styles.min.css.map */

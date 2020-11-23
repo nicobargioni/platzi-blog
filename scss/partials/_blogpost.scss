@@ -1,0 +1,82 @@
+.cabecera{
+    background-image: url('/assets/imagenes/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.linea2{
+    border: 1px solid gray;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+.medio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medio p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blogpost h2{
+    margin-bottom: 20px;
+}
+
+.blogpost p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contacto{
+    background-color: gray;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.contacto-escribe{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.encierro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encierro img{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}

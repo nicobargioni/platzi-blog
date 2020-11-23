@@ -1,0 +1,13 @@
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 30px solid $primary-color;
+}
+
+footer p{
+    color: white;
+}
